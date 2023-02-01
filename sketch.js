@@ -119,7 +119,7 @@ enemy.collide(invisibleground)
 
 function draw() {
     //console.log(windowHeight)
-    
+ enemy.collide(invisibleground)
 
     if (gameState === "wait") {
         background(waitbgimg)
